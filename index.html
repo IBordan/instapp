@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>INSTAPP</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body style="background-color: #EFF1F3; padding: 10px">
+  <header class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#"><img src="img/svg/logo_instapp@1x.svg" alt=""> </a>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item col-auto">
+          <a class="nav-link" href="#">Тарифы<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item col-auto">
+          <a class="nav-link wallet" href="#"><img src="img/svg/wallet.svg" alt="" id="wallet-icon">Баланс:</a>
+        </li>
+        <li class="nav-item col-auto">
+          <a class="nav-link referal" href="#">Рефералов:</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Профиль</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="container-fluid d-inline-flex main-container">
+    <nav class="d-inline-flex">
+      <div class="container">
+        <ul class="navbar-nav flex-column">
+          <li class="nav-item col-auto flex-column">
+            <a class="nav-link main-link d-flex" href="#">Главная</a>
+          </li>
+          <li class="nav-item col-auto flex-column">
+            <a class="nav-link promo-link d-flex" href="#">Продвижение</a>
+          </li>
+          <li class="nav-item col-auto flex-column">
+            <a class="nav-link list-link d-flex" href="#">Мои списки</a>
+          </li>
+          <li class="nav-item col-auto flex-column">
+            <a class="nav-link autopost-link d-flex" href="#">Автопостинг</a>
+          </li>
+          <li class="nav-item col-auto flex-column">
+            <a class="nav-link direct-link d-flex" href="#">Директ</a>
+          </li>
+          <li class="nav-item col-auto flex-column">
+            <a class="nav-link state-link d-flex" href="#">Статистика</a>
+          </li>
+          <li class="nav-item col-auto flex-column">
+            <a class="nav-link deal-link d-flex" href="#">Партнерка</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container d-flex flex-column flex-wrap information">
+      <div class="d-flex personal">
+        <div class="portret">
+          <a href="#"><img src="img/svg/businessman.svg" alt=""></a>
+        </div>
+        <div class="select_div d-flex align-items-center">
+          <div class="custom_select-div">
+            <select class="custom_select"></select>
+          </div>
+          <div class="add"><img src="img/svg/add.svg" alt=""> </div>
+        </div>
+        <div class="d-inline-flex">
+          <div class="state-info">
+            <div class="score"><span><img src="img/svg/Rectangle.svg" alt=""></span></div>
+            <div class="score-title">
+              <p>Публикации</p>
+            </div>
+          </div>
+          <div class="state-info">
+            <div class="score"><span><img src="img/svg/Rectangle.svg" alt=""></span></div>
+            <div class="score-title">
+              <p>Подписчиков</p>
+            </div>
+          </div>
+          <div class="state-info">
+            <div class="score"><span><img src="img/svg/Rectangle.svg" alt=""></span></div>
+            <div class="score-title">
+              <p>Подписок</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-inline-flex flex-column promo-div">
+          <div class="d-flex justify-content-center promo-title">
+            <p>Продвижение не запущено!</p><img src="img/svg/information1.svg" alt="">
+          </div>
+          <div class="button d-flex justify-content-center"><button>Начать продвижение!</button></div>
+        </div>
+      </div>
+      <div class="d-inline-flex progress-bar-div justify-content-center">
+        <div class="bar">
+           <img src="img/svg/bar.svg" alt="" class="progress-bar">
+           <img src="img/svg/Done.svg" alt="" class="firstFase"><span class="firstFaseLabel FaseLabel">Подтвердите почту</span>
+           <img src="img/svg/secondFase.svg" alt="" class="secondFase"><span class="secondFaseLabel FaseLabel">Добавьте аккаунт Instagram</span>
+           <img src="img/svg/thirdFase.svg" alt="" class="thirdFase"><span class="thirdFaseLabel FaseLabel">Начните продвижение</span>
+        </div>
+      </div>
+      <div class="d-flex confirm-div justify-content-center">
+        <div class="confirm-information justify-content-center">
+          <div class="h1-attention">
+            <h1><span>Подтвердите почту!</span></h1>
+          </div>
+          <div class="d-flex email-sended justify-content-center">
+            <span>Мы отправили письмо на</span>
+          </div>
+          <div class="d-flex email-title justify-content-center">
+            <h2>daymary@yandex.ru</h2>
+          </div>
+          <div class="label-attention">
+            <span>Вам потребуется подтвердить свою почту чтобы начать работу с сервисом.</span>
+          </div>
+          <div class="d-flex button-send justify-content-center">
+            <button type="button" name="button" class="button-send-letter">Отправить письмо ещё раз</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap scripts -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

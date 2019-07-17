@@ -1,0 +1,197 @@
+nav {
+background: #FFFFFF;
+box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+padding: 20px;
+height: 100%;
+margin-top: 20px;
+}
+#wallet-icon {
+  margin-right: 5px;
+}
+.wallet::after, .referal::after {
+  content: ' 0р';
+  color: grey;
+}
+.main-link::before {
+  content: url(../img/svg/house-outline.svg);
+}
+.main-link {
+  color: black;
+}
+div.navbar-collapse a {
+  color: black;
+}
+.promo-link::before {
+  content: url(../img/svg/loudspeaker.svg);
+}
+.list-link::before {
+  content: url(../img/svg/list.svg);
+}
+.autopost-link::before {
+  content: url(../img/svg/Copy.svg);
+}
+.direct-link::before {
+  content: url(../img/svg/direct.svg);
+}
+.state-link::before {
+  content: url(../img/svg/monitor.svg);
+}
+.deal-link::before {
+  content: url(../img/svg/deal.svg);
+}
+.flex-column {
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 250px;
+}
+.navbar-brand {
+  margin-left: 95px;
+}
+.promo-link, .list-link, .autopost-link, .direct-link, .state-link, .deal-link {
+    color: #9CAFC6;
+}
+.container {
+  height: 770px;
+}
+.information {
+  margin: 20px 0px 0px 20px;
+}
+.personal {
+  margin-left: 25px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 25px;
+}
+.portret {
+  background-color: #EFF1F3;
+  padding: 20px;
+  border-radius: 100px;
+}
+.select_div {
+  margin-left: 17px;
+}
+.add {
+  margin: 0px 0 0 10px;
+  cursor: pointer;
+}
+.custom_select {
+  width: 200px;
+  background: #FAFAFA;
+  border: 1px solid #D3DAFF;
+  box-sizing: border-box;
+  border-radius: 32px;
+  padding: 3px;
+}
+.custom_select-div {
+  position:
+  relative;
+  float: left;
+}
+.custom_select-div:after{
+  content: url(../img/svg/Vector.svg);
+  text-align: center;
+  line-height:28px;
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  background: #FAFAFA;
+  right: 6.7px;
+  top: 1px;
+  pointer-events: none;
+  border-radius: 100px;
+}
+div.score {
+  text-align: center;
+  color: #9CAFC6;
+}
+.state-info {
+  margin-left: 150px;
+  margin-top: 15px;
+  color: #9CAFC6;
+  font-size: 14px;
+}
+.promo-div {
+  margin-left: 100px;
+}
+.promo-title {
+  color: #9CAFC6;
+  font-size: 11px;
+  text-align: center;
+  margin-left: 10px;
+}
+button {
+  border: 1px solid #9CAFC6;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: white;
+  color: #9CAFC6;
+  padding: 7px;
+  width: 200px;
+  font-size: 14px;
+}
+.progress-bar-div {
+  margin: 38px 0px 0px 20px;
+}
+.firstFase {
+  position: relative;
+  top: -73px;
+  left: -80px;
+}
+.firstFaseLabel {
+  position: relative;
+  top: -35px;
+  left: -240px;
+}
+.secondFase {
+  position: relative;
+  top: -73px;
+  left: 80px;
+}
+.secondFaseLabel {
+  position: relative;
+  top: -35px;
+  left: -110px;
+}
+.thirdFase {
+  position: relative;
+  top: -73px;
+  left: 190px;
+}
+.thirdFaseLabel {
+  position: relative;
+  top: -35px;
+  left: 25px;
+}
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+.FaseLabel {
+  color: #9CAFC6;
+}
+.confirm-div {
+  margin: 20px 0px 0px 20px;
+}
+.email-sended {
+  margin-top: 40px;
+}
+.h1-attention {
+  text-align: center;
+}
+.button-send-letter {
+  background: #9CAFC6;
+  border-radius: 6px;
+  color: white;
+  margin-top: 40px;
+  width: 270px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.email-sended, .label-attention {
+  color: #9CAFC6;
+}
+.email-title {
+  color: #0084F4;
+}
